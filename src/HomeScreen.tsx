@@ -22,6 +22,12 @@ export default function HomeScreen(props: Props) {
           navigation.navigate("PanGestureHandler");
         }}
       />
+      <Button
+        title="Interpolate With Scroll View"
+        onPress={() => {
+          navigation.navigate("InterpolateWithScrollView");
+        }}
+      />
     </View>
   );
 }
