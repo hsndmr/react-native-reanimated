@@ -16,6 +16,12 @@ export default function HomeScreen(props: Props) {
           navigation.navigate("Introduction");
         }}
       />
+      <Button
+        title="Pan Gesture Handler"
+        onPress={() => {
+          navigation.navigate("PanGestureHandler");
+        }}
+      />
     </View>
   );
 }
