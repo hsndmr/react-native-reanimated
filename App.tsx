@@ -4,6 +4,7 @@ import * as React from "react";
 
 import HomeScreen from "./src/HomeScreen";
 import IntroductionScreen from "./src/IntroductionScreen";
+import PanGestureHandlerScreen from "./src/PanGestureHandlerScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -13,6 +14,10 @@ function App() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Introduction" component={IntroductionScreen} />
+        <Stack.Screen
+          name="PanGestureHandler"
+          component={PanGestureHandlerScreen}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
