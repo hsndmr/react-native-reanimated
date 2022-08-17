@@ -28,6 +28,12 @@ export default function HomeScreen(props: Props) {
           navigation.navigate("InterpolateWithScrollView");
         }}
       />
+      <Button
+        title="Skate Deck Onboarding"
+        onPress={() => {
+          navigation.navigate("SkateDeckOnboarding");
+        }}
+      />
     </View>
   );
 }
